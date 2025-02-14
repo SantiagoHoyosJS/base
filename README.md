@@ -10,7 +10,6 @@ Familiarizarse con contenedores, la automatización de procesos en Docker y el a
 
 
 ## Lenguajes
-Lenguajes escogidos:
 - Python
 - C++
 - JavaScript (Node.js)
@@ -26,13 +25,13 @@ Copiar comando con control + shift + c
 
 Y pegarlos en play with docker con control + shift + v
 
-mkdir -p app && git clone https://github.com/SantiagoHoyosJS/base.git app mkdir -p repo && git clone https://github.com/JesusC25/Soluciones.git repo
-
-mv repo/* app/
-cd app
-docker-compose build
-docker-compose up 
-docker-compose logs -f --no-color
+- mkdir -p app && git clone https://github.com/SantiagoHoyosJS/base.git app
+- mkdir -p repo && git clone https://github.com/JesusC25/Soluciones.git repo
+- mv repo/* app/
+- cd app
+- docker-compose build
+- docker-compose up 
+- docker-compose logs -f --no-color
 
 El docker compose puede tardar un momento en cargar.
 
