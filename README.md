@@ -21,9 +21,7 @@ Al final, el contenedor base generará una tabla con los tiempos de ejecución d
 
 ## Instructivo para ejecución
 
-Copiar comando con control + shift + c
-
-Y pegarlos en play with docker con control + shift + v
+Pegar comandos en la terminal de play with docker con control + shift + v.
 
 - mkdir -p app && git clone https://github.com/SantiagoHoyosJS/base.git app
 - mkdir -p repo && git clone https://github.com/JesusC25/Soluciones.git repo
