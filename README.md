@@ -38,4 +38,4 @@ El docker compose puede tardar un momento en cargar.
 - Santiago Hoyos
 
 ## Enlace al repositorio
-[Repositorio público con los códigos del benchmark](https://github.com/SantiagoHoyosJS/soluciones.git)
+[Repositorio público con los códigos del benchmark](https://github.com/JesusC25/Soluciones.git)
