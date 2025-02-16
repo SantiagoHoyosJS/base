@@ -23,6 +23,9 @@ Al final, el contenedor base generará una tabla con los tiempos de ejecución d
 
 Pegar comandos en la terminal de play with docker con control + shift + v.
 
+- docker run --privileged --name dind-container -d docker:20.10-dind
+- docker exec -it dind-container sh
+- apk add git
 - mkdir -p app && git clone https://github.com/SantiagoHoyosJS/base.git app
 - mkdir -p repo && git clone https://github.com/JesusC25/Soluciones.git repo
 - mv repo/* app/
@@ -31,7 +34,7 @@ Pegar comandos en la terminal de play with docker con control + shift + v.
 - docker-compose up 
 - docker-compose logs -f --no-color
 
-El docker compose puede tardar un momento en cargar.
+El docker compose build puede tardar un momento en ejecutarse.
 
 ## Miembros del grupo
 - Jesús Cabrera
