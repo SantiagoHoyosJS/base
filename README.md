@@ -21,7 +21,7 @@ Al final, el contenedor base generará una tabla con los tiempos de ejecución d
 
 ## Instructivo para ejecución
 
-Pegar comandos en la terminal de play with docker con control + shift + v.
+Pegar comandos en la terminal de [Play with Docker](https://labs.play-with-docker.com/) con `Ctrl + Shift + V`.  
 
 - git clone https://github.com/SantiagoHoyosJS/base.git base && cd base
 - chmod +x setup.sh
