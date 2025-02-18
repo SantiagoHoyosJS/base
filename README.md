@@ -23,8 +23,7 @@ Al final, el contenedor base generará una tabla con los tiempos de ejecución d
 
 Pegar comandos en la terminal de play with docker con control + shift + v.
 
-- git clone https://github.com/SantiagoHoyosJS/base.git
-- cd base
+- git clone https://github.com/SantiagoHoyosJS/base.git base && cd base
 - chmod +x setup.sh
 - ./setup.sh
 
